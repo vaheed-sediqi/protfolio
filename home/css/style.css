@@ -1,0 +1,66 @@
+body{
+	font-family: 'Audiowide', cursive;
+}
+
+.bg-gray {
+	background: gray;
+}
+
+.font-div{
+	width: 30%;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+#brand{
+	margin-bottom: 8%;
+
+}
+
+.dark{
+	color: gray;
+}
+
+a:hover{
+	color: blue;
+}
+img{
+	border:2px solid #F1A94E;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+ .font-div{
+	width: 25%;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+	 .font-div{
+	width: 25%;
+}
+
+.menu{
+	font-size: 0.8em;
+}
+ 
+}
+
+@media only screen and (max-width: 450px) {
+
+	 .font-div{
+	width: 25%;
+}
+
+.menu{
+	font-size: 0.5em;
+	text-align: center;
+}
+ 
+}
